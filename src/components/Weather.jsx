@@ -43,6 +43,20 @@ const Weather = ({ data }) => {
         <h4>Maximum Temperature <br></br></h4>
         <h4>{data.tempmax}</h4>
       </div> 
+      <div className="more_info">
+        <div className="details">
+          <h3>Pressure</h3>
+          <h4>{data.pressure}</h4>
+        </div>
+        <div className="details">
+          <h3>Sea level</h3>
+          <h4>{data.sea}</h4>
+        </div>
+        <div className="details">
+          <h3>ground level</h3>
+          <h4>{data.g}</h4>
+        </div>
+      </div>
       </div>
     </div>
   );

@@ -40,15 +40,16 @@
     border-radius:15px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.596);
 }
-.weather-n-city-info h2{
-    margin-top:10px;
-    margin-bottom:20px;
-}
-.temp-bold{
-    font-size:1.5em;
-    font-weight:bolder;
-    
-}
+            .weather-n-city-info h2{
+                margin-top:10px;
+                margin-bottom:20px;
+            }
+
+    .temp-bold{
+        font-size:1.5em;
+        font-weight:bolder;
+        
+    }
 .weather-card{
     display:flex;
     flex-direction:column;
@@ -71,7 +72,7 @@
     justify-content:space-between;
     align-items:flex-start;
     margin-left:20px;
-    height:min-contnet;
+    height:85.6%;
 
 }
 .temp-info img{
@@ -87,11 +88,50 @@
     border-radius:15px;
     width:100%;
 }
-@media screen and (max-width:676px){
-    .humidity_pr{
-        flex-wrap:wrap;
-    }
-
-
-    
+.more_info{
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+    padding:10px;
+    background-color:#6488ff;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.596);
+    width:15%;
+    height: 86%;
 }
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px; 
+    padding: 10px;
+    background-color: #4f6ef7;  
+    border-radius: 10px;
+  }
+  
+  
+  .details h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .details h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+
+  .details h3, .details h4 {
+    width: 100%;
+  }
+        @media screen and (max-width:676px){
+            .humidity_pr{
+                flex-wrap:wrap;
+            }
+
+
+            
+        }

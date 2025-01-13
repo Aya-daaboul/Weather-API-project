@@ -30,10 +30,12 @@ const App = () => {
       const pressure=data.main.pressure;
       const humidity=data.main.humidity;
       const windspeed=data.wind.speed;
+      const sea=data.main.sea_level;
+      const g=data.main.grnd_level;
       
 
 
-      setWeatherData({ city, temp, desc, feelslike, tempmin,tempmax,pressure,humidity,windspeed,icon,});
+      setWeatherData({ city, temp, desc, feelslike, tempmin,tempmax,pressure,humidity,windspeed,icon,sea,g,});
       setLoading(false);
     } catch (err) {
       setError(err.message); 
