@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Weather from './components/Weather';
-const c = prompt("enter a city")
+
 const App = () => {
   const [weatherData, setWeatherData] = useState(null); 
   const [loading, setLoading] = useState(true); 
